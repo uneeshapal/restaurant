@@ -252,10 +252,9 @@ hr {
 /* ✅ Mobile Responsive */
 @media (max-width: 768px) {
    #Menu ul li {
-      width: 100%;
-      float: none;
+     display: block;
+     border-bottom: 1px solid #444;
    }
-
    .container {
       flex-direction: column;
       height: auto;
